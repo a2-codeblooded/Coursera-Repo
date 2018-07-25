@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2C3531;
+  font-family: 'Eczar', serif;
+}
+
+/** Header **/
+#header-nav {
+  background-color: #5D001E;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* company name */
+  font-family: 'Merienda', cursive;
+  color: green;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid green;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #5D001E;
+}
+#nav-list a {
+  color: green;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: green;
+}
+
+/** End of Header **/
+
+/** Content **/
+
+#menu-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#main-section {
+	height: 1000px;
+	background-color: #2E151B;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
